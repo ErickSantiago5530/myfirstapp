@@ -1,0 +1,61 @@
+.App {
+
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.Fooder a{
+  margin-left:80px;
+  color:#b2476b;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+#rev_slider_26_1_wrapper {
+  background:#aaaaaa;padding:0px;
+}
+
+#img1 {
+  background:linear-gradient(90deg, rgba(0, 0, 153, 0.5) 0%, rgba(0, 190, 214, 0.6) 100%)
+}
+#rev_slider_26_1{
+  display:none;
+}
+
+#slide-73-layer-1{
+  z-index: 6;
+}
+
+#slide-73-layer-2{
+  z-index: 8; min-width: 450px; max-width: 650px; white-space: normal; font-size: 70px; font-weight: 600; line-height: 90px; color: #ffffff; letter-spacing: -2px;
+}
+
+#slide-73-layer-3{
+  z-index: 7; white-space: normal; font-size: 20px; line-height: 20px; font-weight: 400; color: #ffffff; letter-spacing: 10px;
+}
+
+#img3{
+  background:linear-gradient(120deg, #b7ebf6 0%, rgba(228, 97, 210, 0.7) 100%)
+}
+
+#slide-74-layer-1{
+  z-index: 5;
+}
+
+#slide-74-layer-3{
+  z-index: 7; white-space: normal; font-size: 20px; line-height: 20px; font-weight: 400; color: #ffffff; letter-spacing: 10px;
+}
+
+#slide-74-layer-2{
+  z-index: 8; min-width: 650px; max-width: 950px; white-space: normal; font-size: 5px; font-weight: 600; line-height: 100px; color: #ffffff; letter-spacing: -4px;
+}
+
+#div-bannertimer{
+  height: 10px; background: rgba(0, 0, 0, 0.15);
+}

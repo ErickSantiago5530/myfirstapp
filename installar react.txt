@@ -1,0 +1,7 @@
+npm install -g create-react-app
+npm install
+npm start
+
+==== instalar react router ======
+npm install react-router-dom
+npm install --save prop-types

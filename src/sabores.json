@@ -1,0 +1,88 @@
+{
+  "todos": [
+        {
+          "id":"0",
+          "titulo":"Chicle búbalo",
+          "alt":"Helado delicioso sabor Chicle búbalo",
+          "texto":"Conoce la mejor manera de mascar chicle, mientras se derrite en tu boca <strong>¡El sabor que a todo niño encantará!</strong>",
+          "img":"helado_cremoso_sabor_chicle.webp"
+        },
+        {
+          "id":"1",
+          "titulo":"Galleta oreo",
+          "alt":"Helado delicioso sabor Galleta oreo",
+          "texto":"La galleta preferida de los niños <strong>¡Ahora en cono!</strong> No te pierdas esta interesante mezcla entre el helado y lo cremoso de las <strong>galletas oreo</strong> así que <strong>¡Pide, saborea, y disfruta!</strong>",
+          "img":"helado_de_galleta_sabor_oreo.webp"
+        },
+        {
+          "id":"2",
+          "titulo":"Nieve de limón",
+          "alt":"Helado delicioso sabor Nieve de limón",
+          "texto":"No puede faltar la nieve de las nieves. Chicos y grandes gozarán siempre de la  <strong>nieve de limón </strong>, así que ¿Qué esperas para venir y refrescarte?",
+          "img":"nieve_fresca_como_el_limon.webp"
+        },
+        {
+          "id":"2",
+          "titulo":"Chocolate",
+          "alt":"Helado delicioso sabor Chocolate",
+          "texto":"Perfecta combinación de leche con chocolate que te llevará a una increíble experiencia. Saborea el helado más <strong>delicioso</strong> y el <strong>preferido</strong> de los pequeños.",
+          "img":"helado_cremoso_con_chocolate.webp"
+        },
+        {
+          "id":"2",
+          "titulo":"Selva negra",
+          "alt":"Helado delicioso sabor Selva negra",
+          "texto":"Combinamos lo grandioso del <strong>chocolate</strong> con lo acidito de la cereza dejando una sensación única y especial en tu boca.",
+          "img":"una_experiencia_de_sabor_selva_negra.webp"
+        },
+        {
+          "id":"2",
+          "titulo":"Choco chips",
+          "alt":"Helado delicioso sabor Choco chips",
+          "texto":"¡Un sabor inigualable! Lo más rico del <strong> helado de vainilla</strong> con pequeños <strong>trozos de chocolate</strong>, simplemente un deleite al paladar de los jóvenes.",
+          "img":"helado_con_chispas_de_chocolate.webp"
+        },
+        {
+          "id":"2",
+          "titulo":"Gansito",
+          "alt":"Helado delicioso sabor Gansito",
+          "texto":"El helado que todo joven quiere probar, una rica base de helado con <strong>trozos de gansito</strong> ¡Recuérdame antes de que me derrita!",
+          "img":"helado_dulce_de_gansito.webp"
+        },
+        {
+          "id":"2",
+          "titulo":"Menta granizada",
+          "alt":"Helado delicioso sabor Menta granizada",
+          "texto":"MaravillosaMenta el sabor más atractivo de la comunidad. Menta con leche y trozos de chocolate un sabor <strong>¡totalmente refrescante!</strong>",
+          "img":"helado_de_menta_fresca.webp"
+        },
+        {
+          "id":"2",
+          "titulo":"Fresas con crema",
+          "alt":"Helado delicioso sabor Fresas con crema",
+          "texto":"<strong>El mejor postre</strong> para acompañar tus tardes, la unión del exquisito sabor de la <strong>fresas con crema</strong> con un <strong>toque innovador</strong> que solo disfrutarás en <strong>helados Viczza.</strong>",
+          "img":"helado_de_fresas_con_crema.webp"
+        },
+        {
+          "id":"2",
+          "titulo":"Piñón",
+          "alt":"Helado delicioso sabor Piñón",
+          "texto":"El helado que solo los <strong>expertos</strong> sabrán degustar, totalmente <strong>clásico</strong> y con el toque especial de la <strong>preparación de la casa</strong>, ¡Pídelo en cualquiera de nuestras sucursales!.",
+          "img":"helado_de_pinon.webp"
+        },
+        {
+          "id":"2",
+          "titulo":"Nescafe supremo",
+          "alt":"Helado delicioso sabor Nescafe supremo",
+          "texto":"Para los <strong>amantes del café</strong>, comienza el día con la sabrosa combinación del <strong>helado de leche</strong> con café y pequeños <strong>pedazos de chocolate</strong> con un sabor y aroma únicos.",
+          "img":"helado_de_nescafe_supremo.webp"
+        },
+        {
+          "id":"2",
+          "titulo":"Beso de ángel",
+          "alt":"Helado delicioso sabor Beso de ángel",
+          "texto":"Una mezcla de deliciosos frutos naturales <strong>(coco, nuez, cereza y pistache)</strong> hará que no puedas resistirte a probar un sabor como <strong>caído del cielo.</strong>",
+          "img":"dulce_como_el_beso_de_angel.webp"
+        },
+  ]
+}

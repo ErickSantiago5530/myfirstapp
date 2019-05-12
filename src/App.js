@@ -11,6 +11,7 @@ import TodoForm from './components/TodoForm';
 import Header from './components/Header';
 import Fooder from './components/Fooder';
 import Home from './components/Home';
+import Content from './components/Content';
 
 class App extends Component {
   constructor() {
@@ -18,16 +19,18 @@ class App extends Component {
   }
 
   static propTypes = {
-    children: PropTypes.object.isRequired;
+    children: PropTypes.object.isRequired
   }
 
   render() {
+
+
     const { children } = this.props;
     // RETURN THE COMPONENT
     return (
       <div className="App">
         <Header></Header>
-        <Home></Home>
+        <Content body={children}/>
         <Fooder></Fooder>
       </div>
     );

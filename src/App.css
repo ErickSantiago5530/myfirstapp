@@ -17,6 +17,7 @@
   to { transform: rotate(360deg); }
 }
 
+/* index */
 #rev_slider_26_1_wrapper {
   background:#aaaaaa;padding:0px;
 }
@@ -58,4 +59,13 @@
 
 #div-bannertimer{
   height: 10px; background: rgba(0, 0, 0, 0.15);
+}
+
+/* about */
+#about p{
+  text-align:6px;
+}
+/* Eventos */
+.center-eventos{
+  text-align:center;
 }

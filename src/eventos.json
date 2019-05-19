@@ -1,0 +1,12 @@
+{
+  "eventos": [
+    {"img":"helados_viczza.webp","id":"1","alt":"Sabor de fresa"},
+    {"img":"carrito_viczza.webp","id":"1","alt":"Sabor de fresa"},
+    {"img":"evento_helados.webp","id":"1","alt":"viczza_eventos"},
+    {"img":"helado_parque_alto.webp","id":"1","alt":"algo de descripcion"},
+    {"img":"parque_viczza.webp","id":"1","alt":"algo de descripcion"},
+    {"img":"repartiendo_helados_parque.webp","id":"1","alt":"algo de descripcion"},
+    {"img":"repartiendo_helados_sabores.webp","id":"1","alt":"Sabor de fresa"},
+    {"img":"ninos_helado.webp","id":"1","alt":"algo de descripcion"}
+  ]
+}

@@ -39,23 +39,23 @@ class Header extends Component {
                     <ul className="navbar-nav text-uppercase g-pos-rel g-font-weight-600 ml-auto">
 
                       <li className="active nav-item  g-mx-10--lg g-mx-15--xl">
-                        <a href="/home" id='home' onclick="cambiamenu('home')" className="nav-link g-py-7 g-px-0">Inicio</a>
+                        <a href="/home" id='home'  className="nav-link g-py-7 g-px-0">Inicio</a>
                       </li>
 
                       <li className="nav-item  g-mx-10--lg g-mx-15--xl">
-                        <a href="/sabores" id='sabores' onclick="cambiamenu('sabores')" className="nav-link g-py-7 g-px-0">Helados</a>
+                        <a href="/sabores" id='sabores'  className="nav-link g-py-7 g-px-0">Helados</a>
                       </li>
                       <li className="nav-item  g-mx-10--lg g-mx-15--xl">
-                        <a href="/eventos" id='eventos' onclick="cambiamenu('eventos')" className="nav-link g-py-7 g-px-0">Eventos</a>
+                        <a href="/eventos" id='eventos' className="nav-link g-py-7 g-px-0">Eventos</a>
                       </li>
 
 
                       <li className="nav-item  g-mx-10--lg g-mx-15--xl">
-                        <a href="/about" id='about' onclick="cambiamenu('about')" className="nav-link g-py-7 g-px-0">Acerca de</a>
+                        <a href="/about" id='about'  className="nav-link g-py-7 g-px-0">Acerca de</a>
                       </li>
 
                       <li className="nav-item  g-mx-10--lg g-mx-15--xl">
-                        <a href="/contactanos" id='contactanos' onclick="cambiamenu('contactanos')" className="nav-link g-py-7 g-px-0">Contactanos</a>
+                        <a href="/contactanos" id='contactanos' className="nav-link g-py-7 g-px-0">Contactanos</a>
                       </li>
                     </ul>
                   </div>

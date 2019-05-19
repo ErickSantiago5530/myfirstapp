@@ -1,209 +1,47 @@
 import React, { Component } from 'react';
+import { eventos } from "./../eventos.json";
+
 
 
 // subcomponents
 class Eventos extends Component {
   constructor() {
     super();
+    this.state = {
+      eventos
+    }
   }
 
   render() {
+    const eventos = this.state.eventos.map((evento,i)=>{
+      return (
+        <div className="cbp-item identity design">
+          <div className="u-block-hover g-parent">
+            <img className="img-fluid g-transform-scale-1_1--parent-hover g-transition-0_5 g-transition--ease-in-out" src={"assets/img-temp/800x500/"+evento.img} alt={evento.alt} title={evento.alt}/>
+            <div className="d-flex w-100 h-100 g-bg-black-opacity-0_6 opacity-0 g-opacity-1--parent-hover g-pos-abs g-top-0 g-left-0 g-transition-0_3 g-transition--ease-in u-block-hover__additional--fade u-block-hover__additional--fade-in g-pa-20">
+              <div className="align-items-end flex-column mt-auto ml-auto">
+                <a className="cbp-lightbox u-icon-v2 u-icon-size--sm g-brd-white g-color-black g-bg-white rounded-circle" href="assets/img-temp/800x500/{{ $imagen['img'] }}">
+                  <i className="icon-communication-017 u-line-icon-pro"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+          </div>
+      );
+    })
     // RETURN THE COMPONENT
     return (
       <div className="Eventos">
-        <section id="events" className="g-theme-bg-gray-light-v4 g-py-50">
-          <div className="container g-max-width-780 text-center g-mb-10">
-            <div className="text-center text-uppercase u-heading-v5-3 u-heading-v5-color-primary u-heading-v5-rounded-50x g-mb-20">
-              <h1 className="h2 g-color-black g-font-weight-600 mb-2">Eventos</h1>
-              <div className="d-inline-block g-width-20 g-height-2 g-bg-primary mb-2"></div>
-              <p>Contáctanos para tus eventos sociales y disfruta de un rico helado viczza en tu increíble día,
-                contamos con sabores que pueden satisfacer tus necesidades y las necesidades de tus amigos y familiares.</p>
-
-            </div>
-            <nav className="nav nav-pills nav-justified">
-              <a className="nav-item nav-link active" href="#" id="event1" onclick="cambiarSliderEventos(1)">Fiesta de niños</a>
-              <a className="nav-item nav-link" href="#" id="event2" onclick="cambiarSliderEventos(2)">Bodas</a>
-              <a className="nav-item nav-link" href="#" id="event3" onclick="cambiarSliderEventos(3)">Bautizos</a>
-            </nav>
-            <br/>
-            <div id="1" className="ocultar">
-                <div id="Fiestadeniños" className="master-slider ms-skin-light-3">
-                <div className="ms-slide" data-delay="3" data-fill-mode="fill">
-                  <img src="assets/img/img_eventos/blank.gif" alt="" title="" data-src="assets/img/img_eventos/evento1.jpg" />
-                  <img className="ms-thumb" src="assets/img/img_eventos/evento1.jpg" alt="" />
-                </div>
-                <div className="ms-slide" data-delay="3" data-fill-mode="fill">
-                  <img src="assets/img/img_eventos/blank.gif" alt="" title="" data-src="assets/img/img_eventos/evento2.jpg" />
-                  <img className="ms-thumb" src="assets/img/img_eventos/evento2.jpg" alt="" />
-                </div>
-                <div className="ms-slide" data-delay="3" data-fill-mode="fill">
-                  <img src="assets/img/img_eventos/blank.gif" alt="" title="" data-src="assets/img/img_eventos/evento3.jpg" />
-                  <img className="ms-thumb" src="assets/img/img_eventos/evento3.jpg" alt="" />
-                </div>
-              </div>
-
-                <div className="ms-staff-carousel g-mt-50">
-                  <div id="Fiestadeniños_c" className="master-slider ms-skin-default">
-                    <div className="ms-slide" data-delay="3" data-fill-mode="fill">
-                      <img src="../assets/img/blank.gif" alt=""  title="" data-src="../assets/img-temp/240x240/1.jpg"/>
-                      <div className="ms-info">
-                        <h3 className="center-eventos">
-                          Chicle búbalo
-                        </h3>
-                        <div className="center-eventos">
-                          es un increíble sabor que es el indicado para el paladar del niño,
-                          <br/>consiste en una preparación de helado de chicle con trozos de chicle búbalo
-                        </div>
-                      </div>
-                    </div>
-                    <div className="ms-slide" data-delay="3" data-fill-mode="fill">
-                      <img src="../assets/img/blank.gif" alt="" title="" data-src="../assets/img-temp/240x240/2.jpg" />
-                      <div className="ms-info">
-                        <h3 className="center-eventos">
-                          Galleta oreo
-                        </h3>
-                        <div className="center-eventos">
-                          es un maravilloso helado que es llamativo para el paladar de los niños,
-                          <br/>consiste en base de helado de leche con trozos de galleta oreo,
-                          un sabor inigualable para el paladar de nuestros pequeños.
-                        </div>
-                      </div>
-                    </div>
-                    <div className="ms-slide" data-delay="3" data-fill-mode="fill">
-                      <img src="../assets/img/blank.gif" alt="" title="" data-src="../assets/img-temp/240x240/3.jpg" />
-                      <div className="ms-info">
-                        <h3 className="center-eventos">
-                          Nieve de limón
-                        </h3>
-                        <div className="center-eventos">
-                          este es un sabor que nuestros pequeños jamas podrán olvidar es un sabor que <br/>refresca totalmente al niño.
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-            </div>
-
-            <div id="2" className="ocultar">
-                <div id="Bodas" className="master-slider ms-skin-light-3">
-                <div className="ms-slide" data-delay="3" data-fill-mode="fill">
-                  <img src="assets/img/img_eventos/blank.gif" alt="" title="" data-src="assets/img/img_eventos/evento1.jpg" />
-                  <img className="ms-thumb" src="assets/img/img_eventos/evento1.jpg" alt="" />
-                </div>
-                <div className="ms-slide" data-delay="3" data-fill-mode="fill">
-                  <img src="assets/img/img_eventos/blank.gif" alt="" title="" data-src="assets/img/img_eventos/evento2.jpg" />
-                  <img className="ms-thumb" src="assets/img/img_eventos/evento2.jpg" alt="" />
-                </div>
-                <div className="ms-slide" data-delay="3" data-fill-mode="fill">
-                  <img src="assets/img/img_eventos/blank.gif" alt="" title="" data-src="assets/img/img_eventos/evento3.jpg" />
-                  <img className="ms-thumb" src="assets/img/img_eventos/evento3.jpg" alt="" />
-                </div>
-              </div>
-
-                <div className="ms-staff-carousel g-mt-50">
-                  <div id="Bodas_c" className="master-slider ms-skin-default">
-                    <div className="ms-slide" data-delay="3" data-fill-mode="fill">
-                      <img src="../assets/img/blank.gif" alt=""  title="" data-src="../assets/img-temp/240x240/1.jpg"/>
-                      <div className="ms-info">
-                        <h3 className="center-eventos">
-                          Chicle búbalo
-                        </h3>
-                        <div className="center-eventos">
-                          es un increíble sabor que es el indicado para el paladar del niño,
-                          <br/>consiste en una preparación de helado de chicle con trozos de chicle búbalo
-                        </div>
-                      </div>
-                    </div>
-                    <div className="ms-slide" data-delay="3" data-fill-mode="fill">
-                      <img src="../assets/img/blank.gif" alt="" title="" data-src="../assets/img-temp/240x240/2.jpg" />
-                      <div className="ms-info">
-                        <h3 className="center-eventos">
-                          Galleta oreo
-                        </h3>
-                        <div className="center-eventos">
-                          es un maravilloso helado que es llamativo para el paladar de los niños,
-                          <br/>consiste en base de helado de leche con trozos de galleta oreo,
-                          un sabor inigualable para el paladar de nuestros pequeños.
-                        </div>
-                      </div>
-                    </div>
-                    <div className="ms-slide" data-delay="3" data-fill-mode="fill">
-                      <img src="../assets/img/blank.gif" alt="" title="" data-src="../assets/img-temp/240x240/3.jpg" />
-                      <div className="ms-info">
-                        <h3 className="center-eventos">
-                          Nieve de limón
-                        </h3>
-                        <div className="center-eventos">
-                          este es un sabor que nuestros pequeños jamas podrán olvidar es un sabor que <br/>refresca totalmente al niño.
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-            </div>
-
-            <div id="3" className="ocultar">
-
-              <div id="Bautizos" className="master-slider ms-skin-light-3">
-                <div className="ms-slide" data-delay="3" data-fill-mode="fill">
-                  <img src="assets/img/img_eventos/blank.gif" alt="" title="" data-src="assets/img/img_eventos/evento1.jpg" />
-                  <img className="ms-thumb" src="assets/img/img_eventos/evento1.jpg" alt="" />
-                </div>
-                <div className="ms-slide" data-delay="3" data-fill-mode="fill">
-                  <img src="assets/img/img_eventos/blank.gif" alt="" title="" data-src="assets/img/img_eventos/evento2.jpg" />
-                  <img className="ms-thumb" src="assets/img/img_eventos/evento2.jpg" alt="" />
-                </div>
-                <div className="ms-slide" data-delay="3" data-fill-mode="fill">
-                  <img src="assets/img/img_eventos/blank.gif" alt="" title="" data-src="assets/img/img_eventos/evento3.jpg" />
-                  <img className="ms-thumb" src="assets/img/img_eventos/evento3.jpg" alt="" />
-                </div>
-              </div>
-
-              <div className="ms-staff-carousel g-mt-50">
-                <div id="Bautizos_c" className="master-slider ms-skin-default">
-                  <div className="ms-slide" data-delay="3" data-fill-mode="fill">
-                    <img src="../assets/img/blank.gif" alt=""  title="" data-src="../assets/img-temp/240x240/1.jpg"/>
-                    <div className="ms-info">
-                      <h3>
-                        Chicle búbalo
-                      </h3>
-                      <div className="center-eventos">
-                        es un increíble sabor que es el indicado para el paladar del niño,
-                        <br/>consiste en una preparación de helado de chicle con trozos de chicle búbalo
-                      </div>
-                    </div>
-                  </div>
-                  <div className="ms-slide" data-delay="3" data-fill-mode="fill">
-                    <img src="../assets/img/blank.gif" alt="" title="" data-src="../assets/img-temp/240x240/2.jpg" />
-                    <div className="ms-info">
-                      <h3 className="center-eventos">
-                        Galleta oreo
-                      </h3>
-                      <div className="center-eventos">
-                        es un maravilloso helado que es llamativo para el paladar de los niños,
-                        <br/>consiste en base de helado de leche con trozos de galleta oreo,
-                        un sabor inigualable para el paladar de nuestros pequeños.
-                      </div>
-                    </div>
-                  </div>
-                  <div className="ms-slide" data-delay="3" data-fill-mode="fill">
-                    <img src="../assets/img/blank.gif" alt="" title="" data-src="../assets/img-temp/240x240/3.jpg" />
-                    <div className="ms-info">
-                      <h3 className="center-eventos">
-                        Nieve de limón
-                      </h3>
-                      <div className="center-eventos">
-                        este es un sabor que nuestros pequeños jamas podrán olvidar es un sabor que <br/>refresca totalmente al niño.
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-
-
+        <div className="row justify-content-center text-center">
+          <div className="col-lg-11">
+            <h1 className="h2 g-color-black g-font-weight-600 ">Eventos</h1>
+            <div className="d-inline-block g-width-20 g-height-2 g-bg-primary "></div>
           </div>
-
+        </div>
+        <section className="container g-py-100">
+          <div className="cbp g-mb-50" data-controls="#filterControls1" data-animation="quicksand" data-x-gap="30" data-y-gap="30" data-media-queries='[{"width": 1500, "cols": 3}, {"width": 1100, "cols": 3}, {"width": 800, "cols": 3}, {"width": 480, "cols": 2}, {"width": 300, "cols": 1}]'>
+            {eventos}
+          </div>
         </section>
       </div>
     );

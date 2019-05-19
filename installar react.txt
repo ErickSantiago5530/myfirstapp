@@ -5,3 +5,4 @@ npm start
 ==== instalar react router ======
 npm install react-router-dom
 npm install --save prop-types
+npm install html-react-parser --save

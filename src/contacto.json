@@ -1,0 +1,29 @@
+{
+  "contacto": [
+      	{
+          "sucursal":"San salvador Huixcolotla, Puebla",
+          "telefono":"+2491110568",
+          "correo":"info@viczza.com",
+          "direccion":"Carretera Federal Puebla-Tehuacán Km 51, Huixcolotla, La Candelaria, 75440.",
+          "mapa":"https://www.google.com/maps/place/Central+de+Abastos+Huixcolotla/@18.9026303,-97.7899778,718m/data=!3m2!1e3!4b1!4m5!3m4!1s0x85c5621a6873e493:0xd7c20ac4d7cb1df9!8m2!3d18.9026303!4d-97.7877891"
+
+        },
+        {
+          "id":"0",
+          "sucursal":"Tecamachalco, Puebla.",
+          "telefono":"",
+          "correo":"",
+          "direccion":"Avenida 9 Oriente, Centro, 75480",
+          "mapa":"https://www.google.com/maps/place/helados+y+nieves+viczza/@18.8816355,-97.7324707,154a,35y,113.44h,39t/data=!3m1!1e3!4m5!3m4!1s0x0:0x6cbbd0b5c5a95de3!8m2!3d18.8814108!4d-97.7312113"
+
+        },
+        {
+          "id":"0",
+         "sucursal":"Tecamachalco, Puebla.",
+         "telefono":"",
+         "correo":"",
+         "direccion":"Calle 3 Ote. & Calle 2 Sur, Centro, 75480 ",
+         "mapa":"https://www.google.com/maps/place/Calle+3+Ote.+%26+Calle+2+Sur,+Centro,+75480+Tecamachalco,+Pue./@18.8834491,-97.7281674,17z/data=!4m13!1m7!3m6!1s0x85c5630834ce6947:0x6ab400bc1327061a!2sCalle+3+Ote.+%26+Calle+2+Sur,+Centro,+75480+Tecamachalco,+Pue.!3b1!8m2!3d18.883422!4d-97.7281518!3m4!1s0x85c5630834ce6947:0x6ab400bc1327061a!8m2!3d18.883422!4d-97.7281518"
+        }
+  ]
+}

@@ -2,11 +2,24 @@ $(function(){
   $("#home").removeClass('active');
   $("#1").removeClass('ocultar');
   $(".ocultar").hide();
-  cambiarSliderEventos(1);
+  // cambiarSliderEventos(1);
   inicializaSliderEventos();
   var URLactual = window.location.pathname
   cambiamenu(URLactual);
 
+});
+
+$('#event1').on('click',function(e){
+  e.preventDefault();
+  cambiarSliderEventos(1)
+});
+$('#event2').on('click',function(e){
+  e.preventDefault();
+  cambiarSliderEventos(2)
+});
+$('#event3').on('click',function(e){
+  e.preventDefault();
+  cambiarSliderEventos(3)
 });
 
 function cambiarSliderEventos(evento){
@@ -403,48 +416,11 @@ function inicializaCarrucel3(){
 }
 
 function cambiamenu(menu){
-  console.log('entro a cambia menu');
-  switch (menu) {
-    case '/home':
-      $("#galeria").removeClass('active');
-      $("#mega-menu-home").removeClass('active');
-      $("#about").removeClass('active');
-      $("#contactanos").removeClass('active');
-      $("#home").addClass('active');
-      break;
-    case '/galeria':
-      $("#home").removeClass('active');
-      $("#mega-menu-home").removeClass('active');
-      $("#about").removeClass('active');
-      $("#contactanos").removeClass('active');
-      $("#galeria").addClass('active');
-      break;
-    case '/eventos':
-      $("#home").removeClass('active');
-      $("#galeria").removeClass('active');
-      $("#mega-menu-home").addClass('active');
-      $("#contactanos").removeClass('active');
-      $("#about").removeClass('active');
-      break;
-    case '/about':
-      $("#home").removeClass('active');
-      $("#galeria").removeClass('active');
-      $("#mega-menu-home").removeClass('active');
-      $("#contactanos").removeClass('active');
-      $("#about").addClass('active');
-      break;
-    case '/contactanos':
-      $("#home").removeClass('active');
-      $("#galeria").removeClass('active');
-      $("#mega-menu-home").removeClass('active');
-      $("#about").removeClass('active');
-      $("#contactanos").addClass('active');
-      break;
-    default:
-      // $("#galeria").removeClass('active');
-      // $("#mega-menu-home").removeClass('active');
-      // $("#about").removeClass('active');
-      // $("#contactanos").removeClass('active');
-      // $("#home").addClass('active');
-  }
+  $("#navBar li").each(function( index ) {
+    $(this).removeClass('active');
+  });
+  console.log(menu);
+  nuevo_menu = menu.replace("/","");
+  console.log(nuevo_menu);
+  $("li #"+nuevo_menu).addClass('active');
 }

@@ -1,8 +1,9 @@
 npm install -g create-react-app
 npm install
-npm start
+npm start //iniciar servidor
 
 ==== instalar react router ======
-npm install react-router-dom
-npm install --save prop-types
-npm install html-react-parser --save
+npm install react-router-dom //para hacer las rutas de las vistas
+npm install --save prop-types //poder ocupar los objetos json
+npm install html-react-parser --save //poder ocupar un string con html
+npm install --save axios  //poder hacer peticiones al servidor tipo ajax

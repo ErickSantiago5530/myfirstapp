@@ -4,19 +4,25 @@
       "title": "task1",
       "responsible": "mark",
       "description": "lorem impsum",
-      "priority": "low"
+      "priority": "low",
+      "published": "Publicado hace 3 minutos ago",
+      "img": "heladoblog.jpg"
     },
     {
       "title": "task2",
       "responsible": "ryan",
       "description": "lorem impsum",
-      "priority": "medium"
+      "priority": "medium",
+      "published": "Publicado hace 3 minutos ago",
+      "img": "heladoblog.jpg"
     },
     {
       "title": "task3",
       "responsible": "joseph",
       "description": "lorem impsum",
-      "priority": "high"
+      "priority": "high",
+      "published": "Publicado hace 3 minutos ago",      
+      "img": "heladoblog.jpg"
     }
   ]
 }

@@ -57,6 +57,10 @@ class Header extends Component {
                       <li className="nav-item  g-mx-10--lg g-mx-15--xl">
                         <a href="/contactanos" id='contactanos' className="nav-link g-py-7 g-px-0">Contactanos</a>
                       </li>
+
+                      <li className="nav-item  g-mx-10--lg g-mx-15--xl">
+                        <a href="/blog" id='blog' className="nav-link g-py-7 g-px-0">Blog</a>
+                      </li>
                     </ul>
                   </div>
 

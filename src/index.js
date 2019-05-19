@@ -8,6 +8,8 @@ import './index.css';
 import App from './App';
 import registerServiceWorker from './registerServiceWorker';
 
+import './express.js';
+
 //Routes
 import AppRoutes from './routes';
 

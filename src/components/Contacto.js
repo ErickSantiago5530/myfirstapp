@@ -15,7 +15,7 @@ class Contacto extends Component {
   render() {
     const contacto = this.state.contacto.map((contact,i)=>{
       return (
-        <tr>
+        <tr key={i}>
           <td className="align-middle text-nowrap">
             <h4 className="h6 g-mb-2">{contact.sucursal}</h4>
             <div className="js-rating g-font-size-12 g-color-primary" data-rating="2"></div>

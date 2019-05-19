@@ -15,7 +15,7 @@ class Eventos extends Component {
   render() {
     const eventos = this.state.eventos.map((evento,i)=>{
       return (
-        <div className="cbp-item identity design">
+        <div className="cbp-item identity design" key={i}>
           <div className="u-block-hover g-parent">
             <img className="img-fluid g-transform-scale-1_1--parent-hover g-transition-0_5 g-transition--ease-in-out" src={"assets/img-temp/800x500/"+evento.img} alt={evento.alt} title={evento.alt}/>
             <div className="d-flex w-100 h-100 g-bg-black-opacity-0_6 opacity-0 g-opacity-1--parent-hover g-pos-abs g-top-0 g-left-0 g-transition-0_3 g-transition--ease-in u-block-hover__additional--fade u-block-hover__additional--fade-in g-pa-20">

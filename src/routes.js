@@ -10,6 +10,7 @@ import About from './components/About';
 import Eventos from './components/Eventos';
 import Sabores from './components/Sabores';
 import Contacto from './components/Contacto';
+import Blog from './components/Blog';
 import Page404 from './components/Page404';
 
 const AppRoutes = () =>
@@ -19,6 +20,7 @@ const AppRoutes = () =>
       <Route path="/about" component={About}/>
       <Route path="/sabores" component={Sabores}/>
       <Route path="/eventos" component={Eventos}/>
+      <Route path="/blog" component={Blog}/>
       <Route path="/contactanos" component={Contacto}/>
       <Route component={Page404}/>
     </Switch>

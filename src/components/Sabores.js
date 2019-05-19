@@ -16,17 +16,17 @@ class Sabores extends Component {
   render() {
     const sabores = this.state.sabores.map((sabor,i)=>{
       return (
-        <div className="ms-slide" data-delay="3" data-fill-mode="fill">
-        <img src="../assets/img/blank.gif" alt={sabor.alt}  title={sabor.alt} data-src={"../assets/img-temp/240x240/"+sabor.img}/>
-        <div className="ms-info">
-          <h2 className="center-eventos">
-            <strong>{sabor.titulo}</strong>
-          </h2>
-          <h3 className="center-eventos">
-            {Parser(sabor.texto)}
-          </h3>
+        <div className="ms-slide" data-delay="3" data-fill-mode="fill" key={i}>
+          <img src="../assets/img/blank.gif" alt={sabor.alt}  title={sabor.alt} data-src={"../assets/img-temp/240x240/"+sabor.img}/>
+          <div className="ms-info">
+            <h2 className="center-eventos">
+              <strong>{sabor.titulo}</strong>
+            </h2>
+            <h3 className="center-eventos">
+              {Parser(sabor.texto)}
+            </h3>
+          </div>
         </div>
-      </div>
       );
     })
     // RETURN THE COMPONENT
